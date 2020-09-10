@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".Beranda">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="69dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/ic_baseline_emoji_emotions_24"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto Bid"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="196dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
